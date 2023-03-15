@@ -13,7 +13,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @SpringBootApplication
-public class ExamserverApplication implements CommandLineRunner {
+public class ExamserverApplication  {
 
 	@Autowired
 	private UserService userService;
@@ -23,7 +23,7 @@ public class ExamserverApplication implements CommandLineRunner {
 
 	}
 
-
+/*
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("Project Running....");
@@ -50,4 +50,6 @@ public class ExamserverApplication implements CommandLineRunner {
 		System.out.println(userOut.getUsername());
 
 	}
+
+ */
 }
