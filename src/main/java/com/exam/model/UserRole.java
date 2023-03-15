@@ -3,7 +3,13 @@ package com.exam.model;
 
 import jakarta.persistence.*;
 
+import lombok.Getter;
+import lombok.Setter;
+
 @Entity
+
+@Getter
+@Setter
 public class UserRole {
 
     @Id
@@ -16,4 +22,5 @@ public class UserRole {
 
     @ManyToOne
     private Role role;
+
 }
